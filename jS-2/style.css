@@ -1,0 +1,79 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.main-container{
+  background: linear-gradient(to right,#ff8787, #e03131);
+  height: 100vh;
+  padding: 3rem;
+  
+}
+.player-cards{
+  display: flex;
+  margin-left: 14rem;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.player-card{
+  text-align: center;
+  background-color: #ffe3e3;
+  padding: 5rem;
+  max-width: 20rem;
+  height: 27rem;
+  width: 55rem;
+  font-size: larger;
+}
+h1{
+  margin-bottom: 2rem;
+}
+.score{
+  margin-bottom: 5rem;
+  font-size: 3rem;
+}
+.current{
+  background-color: #ff8787;
+  padding: 0.25rem;
+  /* margin-top: 4rem; */
+  border-radius: 0.25rem;
+}
+.fade-in {
+  background-color: rgba(255, 255, 255, 0.4);
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+.buttons{
+  text-align: center;
+}
+.btn{
+  margin: 1rem;
+  padding: 0.5rem;
+  border-width: 0px;
+  border-radius: 0.2rem;
+  font-size: larger;
+
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #e79191;
+  transition: 0.35s;
+}
+.dice-image{
+  position: absolute;
+  top: 15rem;
+  left: 36.5rem;
+}
+.dice{
+  height: 5rem;
+  width: 5rem;
+}
+.hidden{
+  display: none;
+}
