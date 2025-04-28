@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pick Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="main-container">
+  <section class="player-cards">
+    <div class="player-card card1">
+      <h1>Player 1</h1>
+      <p class="score player1-score">0</p>
+      <div class="current">
+        <p class="current player1-current">current</p>
+        <p class="player1-current-score">0</p>
+      </div>
+    </div>
+    <div class="player-card card2 fade-in">
+      <h1>Player 2</h1>
+      <p class="score player2-score">0</p>
+      <div class="current">
+        <p class="current player2-current">current</p>
+        <p class="player2-current-score">0</p>
+      </div>
+    </div>
+  </section>
+<section class="dice-image hidden">
+<img class="dice" src="dice-1.png"/>
+</section>
+  <div class="buttons">
+    <button class="btn btn-new-game">NEW GAME</button>
+    <button class="btn btn-roll-dice">ROLL DICE</button>
+    <button class="btn btn-hold">HOLD</button>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
