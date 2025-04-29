@@ -94,6 +94,9 @@ Add animations for smoother UI transitions.
 
 Implement real-time dates for transactions instead of placeholders.
 
+---
+> Live Demo: https://68103283b2d2ac46be5761c1--beamish-pony-92bfed.netlify.app/
+
 ## 📄 License
 This project is licensed for educational and personal use only.
 
