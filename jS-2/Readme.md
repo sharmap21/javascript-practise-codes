@@ -74,7 +74,7 @@ It showcases DOM manipulation, event handling, conditionals, and basic game logi
 - 🔥 Add a scoreboard of wins.
 
 ---
-
+> Live Demo: https://6810322a19f136496c3e5297--meek-queijadas-677682.netlify.app/
 ---
 📜 License
 ## This project is licensed under the MIT License – free for personal and commercial use!
