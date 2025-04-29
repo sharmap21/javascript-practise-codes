@@ -33,7 +33,7 @@ A simple JavaScript game that challenges users to guess a random number between 
 5. Click **Again!** to restart the game.
 
 ---
-
+> live demo: https://6810311a65b50a478b00fe0b--thriving-kangaroo-3ae0b5.netlify.app/
 
 📜 License
 ### This project is for educational and personal practice purposes.
